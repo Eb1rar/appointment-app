@@ -1,9 +1,9 @@
 function App() {
   return (
-    <div>
-      <h1>React App</h1>
+    <div className="container">
+      <h1 className="text-danger mx-auto">CLARUS HOSPITAL</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
