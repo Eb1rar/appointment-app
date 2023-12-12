@@ -1,9 +1,8 @@
-function App() {
-  return (
-    <div className="container">
-      <h1 className="text-danger mx-auto">CLARUS HOSPITAL</h1>
-    </div>
-  );
-}
+import "./App.css";
+import Home from "./pages/Home";
+
+const App = () => {
+  return <Home />;
+};
 
 export default App;
